@@ -22,15 +22,6 @@ const projectsAPI = {
             "url": "https://github.com/alnazo/Programacion-Tema6"
         }
     },
-    "php": {
-        "protfolio": {
-            "title": "PortFolio",
-            "img": "img/alnazo.png",
-            "description": "Web desarrollada en PHP nativo sin uso de librerías externas, donde creado el portfolio de mi perfil.",
-            "developed": "2023",
-            "url": "https://github.com/alnazo/portfolio-antoniodellamas"
-        }
-    },
     "android": {
         "http_cats": {
             "title": "HTTP Cats Errors App",
