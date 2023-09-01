@@ -4,7 +4,12 @@ const experiences = {
         "job": "Técnico en aprendizaje",
         "description": "Aprendizaje de desarrollo de aplicaciones, desde el punto de vista desde una empresa.",
         "functions": [
-            "Asistencia a clases personalizadas con temario que se acerca a el trabajo que se realiza en la empresa."
+            "Asistencia a clases personalizadas con temario que se acerca a el trabajo que se realiza en la empresa.",
+            "Mejora de conocimiento sobre Java y SQL.",
+            "Creación de microservicios.",
+            "Proyecto con todo lo aprendido en el transcurso de la DUAL.",
+            "Uso de Servlets",
+            "Crear aplicación web con JSP"
         ],
         "date": "Marzo 2023 - Junio 2023"
     },
@@ -43,7 +48,7 @@ const experiences = {
 
 const jobsAccordion = document.getElementById('jobs');
 
-    Object.keys(experiences).forEach(key => {
+    Object.keys(experiences).forEach((key, index) => {
         const experience = experiences[key];
 
         const accordionItem = document.createElement('div');
@@ -56,9 +61,16 @@ const jobsAccordion = document.getElementById('jobs');
         const accordionButton = document.createElement('button');
         accordionButton.classList.add('accordion-button', 'collapsed');
         accordionButton.type = 'button';
+
+        if (index === 0) {
+            accordionButton.classList.remove('collapsed');
+            accordionButton.setAttribute('aria-expanded', 'true');
+        } else {
+            accordionButton.setAttribute('aria-expanded', 'false');
+        }
+
         accordionButton.setAttribute('data-bs-toggle', 'collapse');
         accordionButton.setAttribute('data-bs-target', `#${key}`);
-        accordionButton.setAttribute('aria-expanded', 'false');
         accordionButton.setAttribute('aria-controls', key);
         accordionButton.innerHTML = `<span class="separator">${experience.site} | ${experience.job}</span>`;
 
@@ -70,6 +82,10 @@ const jobsAccordion = document.getElementById('jobs');
         accordionCollapse.id = key;
         accordionCollapse.setAttribute('aria-labelledby', key);
         accordionCollapse.setAttribute('data-bs-parent', '#jobs');
+
+        if (index === 0) {
+            accordionCollapse.classList.add('show');
+        }
 
         const accordionBody1 = document.createElement('div');
         accordionBody1.classList.add('accordion-body');

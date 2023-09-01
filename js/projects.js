@@ -88,6 +88,7 @@ for (const lang in projectsAPI) {
         const urlA = document.createElement('a');
         urlA.classList.add('card-link', 'btn', 'btn-primary');
         urlA.href = value.url;
+        urlA.target = '_blank';
         urlA.textContent = 'Ver proyecto';
         cardBody2.appendChild(urlA);
 
