@@ -1,4 +1,13 @@
 const experiences = {
+    "dual2dam": {
+        "site": "Accenture",
+        "job": "Técnico en aprendizaje",
+        "description": "Desarrollo de proyectos para dar servicios a otras empresas.",
+        "functions": [
+            "Realizacion de propuestas para un proyecto"
+        ],
+        "date": "Noviembre 2023 - Actualmente"
+    },
     "dual1dam": {
         "site": "Accenture",
         "job": "Técnico en aprendizaje",
