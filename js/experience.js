@@ -1,4 +1,15 @@
 const experiences = {
+    "innovaTElefonica": {
+        "site": "InnovaTE (Telefónica)",
+        "job": "Guía tecnológico",
+        "description": "Exposición de tecnologías que ofrece Telefónica para usuarios a pie, y empresas.",
+        "functions": [
+            "Asistencia a usuarios.",
+            "Explicaciones sobre tecnología de última generación.",
+            "Ámbitos cotidianos a los que asociar las nuevas tecnologías provenientes"
+        ],
+        "date": "Diciembre 2023"
+    },
     "dual2dam": {
         "site": "Accenture",
         "job": "Técnico en aprendizaje",
