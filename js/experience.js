@@ -1,4 +1,14 @@
 const experiences = {
+    "fctdam": {
+        "site": "Accenture",
+        "job": "Técnico de software",
+        "description": "Desarrollo de proyectos y agilización del trabajo.",
+        "functions": [
+            "Desarrollo de aplicaciones backend para empresas terceras",
+            "Trabajo en metodología Scrum para desarrollo"
+        ],
+        "date": "Marzo 2024 - Junio 2024"
+    },
     "innovaTElefonica": {
         "site": "InnovaTE (Telefónica)",
         "job": "Guía tecnológico",
@@ -17,7 +27,7 @@ const experiences = {
         "functions": [
             "Realizacion de propuestas para un proyecto"
         ],
-        "date": "Noviembre 2023 - Actualmente"
+        "date": "Noviembre 2023 - Marzo 2024"
     },
     "dual1dam": {
         "site": "Accenture",

@@ -3,7 +3,7 @@ const studies = {
         "study": "Desarrollo de Aplicaciones Multiplataforma",
         "level": "Ciclo Formativo de Grado Superior",
         "site": "Escuelas Mª Auxiliadora Nervión",
-        "date": "2022 - Cursando actualmente",
+        "date": "2022 - 2024",
         "description": "Conocimientos en programación Java, SQL, entornos de desarrollos."
     },
     "STI": {
