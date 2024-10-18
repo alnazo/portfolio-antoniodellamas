@@ -4,10 +4,12 @@ const experiences = {
         "job": "Técnico de software",
         "description": "Desarrollo de proyectos y agilización del trabajo.",
         "functions": [
-            "Desarrollo de aplicaciones backend para empresas terceras",
-            "Trabajo en metodología Scrum para desarrollo"
+            "Desarrollo de aplicaciones backend para empresas terceras (Java y SQL)",
+            "Trabajo en metodología Scrum para desarrollo",
+            "Realización de apartados basados en SpringBoot para su implementación (Java, SQL).",
+            "Gestión de cambios a petición para liberar carga de trabajo."
         ],
-        "date": "Marzo 2024 - Junio 2024"
+        "date": "Noviembre 2023 - Junio 2024"
     },
     "innovaTElefonica": {
         "site": "InnovaTE (Telefónica)",
@@ -20,32 +22,21 @@ const experiences = {
         ],
         "date": "Diciembre 2023"
     },
-    "dual2dam": {
-        "site": "Accenture",
-        "job": "Técnico en aprendizaje",
-        "description": "Desarrollo de proyectos para dar servicios a otras empresas.",
-        "functions": [
-            "Realizacion de propuestas para un proyecto"
-        ],
-        "date": "Noviembre 2023 - Marzo 2024"
-    },
     "dual1dam": {
         "site": "Accenture",
-        "job": "Técnico en aprendizaje",
+        "job": "Técnico de software",
         "description": "Aprendizaje de desarrollo de aplicaciones, desde el punto de vista desde una empresa.",
         "functions": [
             "Asistencia a clases personalizadas con temario que se acerca a el trabajo que se realiza en la empresa.",
             "Mejora de conocimiento sobre Java y SQL.",
             "Creación de microservicios.",
-            "Proyecto con todo lo aprendido en el transcurso de la DUAL.",
-            "Uso de Servlets",
-            "Crear aplicación web con JSP"
+            "Creación de micro-servicios y proyectos, uso de Servlets y desarrollo de aplicaciones web JSP"
         ],
         "date": "Marzo 2023 - Junio 2023"
     },
     "giraldillo": {
         "site":"El Giraldillo Comunicación Cultural, S.L",
-        "job": "Técnico informático",
+        "job": "Desarrollador FullStack y técnico de mantenimiento",
         "description": "Asistencia técnica en equipos informáticos, red local, y programación y mantenimiento web con PHP 8, Framework PHP Laravel 8, MySQL, Servicio API REDSYS como desarrollador FullStack encargado de BackEnd y FrontEnd.",
         "functions": [
             {"Programador web" : "Mediante programación en HTML/CSS, PHP 8, Framework (Laravel 8), JavaScript/JQuery, SQL (MySQL) trabajado mediante Visual Studio Code y Ubuntu 20.04 sobre máquina virtual Oracle VM VirtualBox."},
@@ -55,7 +46,7 @@ const experiences = {
     },
     "fctteleco": {
         "site": "Safe Computing S.L",
-        "job": "Técnico asistencia",
+        "job": "Técnico soporte L1",
         "description": "Asistencia técnica a empresas clientes de la empresa con problemas técnicos de soporte L1.",
         "functions": [
             {"Técnico de soporte L1" : "Resolución de problemas informáticos mediante sistema de tickets."},
@@ -66,10 +57,10 @@ const experiences = {
     },
     "fctinformatica": {
         "site": "Onsicom S.L",
-        "job": "Técnico asistencia",
+        "job": "Técnico soporte",
         "description": "Asistencia técnica a empresas del polígono industrial y restablecimiento a fábrica de equipos devueltos a la compañía.",
         "functions": [
-            {"Desarrollo web" : "Bajo entorno de pruebas con Wordpress."},
+            {"Desarrollo web" : "Desarrollo de aplicaciones Wordpress para estudios de cambio de diseño (PHP, HTML, CSS, JavaScript)."},
             {"Mantenimiento informático" : "Comprobación de equipos devueltos por clientes por motivo de baja para resetearlos a fabrica y comprobación de funcionamiento para nueva marcha."}
         ],
         "date": "Marzo 2018 - Junio 2018"
